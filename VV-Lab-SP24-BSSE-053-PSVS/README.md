@@ -70,4 +70,25 @@ Example:
 | Artifact | Section 1, PSVS-REQ-v1.0, S7 |
 | Reason | Defect D13: S7 ("never above -18°C") contradicts S8 (warming to 0°C during maintenance). |
 | Impact | S6, S7, S8 change; a maintenance mode is needed; tests for S7 need a maintenance case. |
-| Approver | Course teacher / requirements owner |
+| Approver | Course teacher / requirements owner |  
+
+# Task 2
+
+## 3. Defect Taxonomy
+
+| # | Category | Definition | Example |
+|---|----------|------------|---------|
+| 1 | Ambiguity | A statement can be understood in two or more different ways. | "Per year" in S10: calendar year or rolling 12 months? |
+| 2 | Vagueness | A statement uses imprecise words with no measurable meaning. | "Safe temperature" in S6. |
+| 3 | Incompleteness | Needed information is missing: conditions, actors, exceptions or failure behaviour. | S1 does not say what happens to an unregistered depositor. |
+| 4 | Contradiction | Two requirements cannot both be satisfied. | S7 "never above -18°C" vs S8 "warmed to 0°C". |
+| 5 | Non-verifiability | No test or measurement can decide whether the requirement is met. | "Good audit trail" in S12. |
+| 6 | Redundancy | The same thing is stated more than once, risking inconsistent updates. | S2 repeats the idea of S3. |
+| 7 | Infeasibility | The requirement cannot be achieved within physical or technical limits. | "Never rise above -18°C" cannot be guaranteed during a power failure. |
+| 8 | Untraceability | A requirement cannot be linked to its source, rationale, design item or test. | S1-S12 have no source or rationale. |
+
+Severity scale:
+- Critical: safety, data loss or ownership/security violation possible.
+- High: requirement cannot be implemented or tested as written.
+- Medium: misunderstanding likely, but a workaround exists.
+- Low: style or duplication only.

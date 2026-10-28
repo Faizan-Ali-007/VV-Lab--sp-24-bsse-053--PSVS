@@ -123,3 +123,24 @@ Severity scale:
 | D23 | S10 (scenario) | Incompleteness | Scenario says each box holds one species, but no requirement makes the system record or enforce the species at deposit, though S10 depends on it. | Scenario: "Each box holds seed samples of one species" | Medium | Add: species is mandatory at deposit and one box holds exactly one species. | Open |
 
 Cross-requirement defects: D04 (S2, S3), D07 (S4, S5), D10 (S5, S12), D12 (S6, S7), D13 (S7, S8), D17 (S9, S10), D19 (S10, S11).
+
+
+## 5. Peer Review Comparison
+
+| | |
+|---|---|
+| My name | Faizan Ali (SP/24/BSSE/053) |
+| Peer name and roll no. | (fill) |
+
+Defects found by the peer that I missed:
+
+| Peer defect ID | Req ID | Category | Description | Added to my log as |
+|----------------|--------|----------|-------------|--------------------|
+| (fill) | (fill) | (fill) | (fill) | D24 |
+
+| Measure | Value |
+|---------|-------|
+| My defects | 23 |
+| Peer-only defects (P) | (fill) |
+| Union = 23 + P | (fill) |
+| My detection rate = 23 / union | (fill) |

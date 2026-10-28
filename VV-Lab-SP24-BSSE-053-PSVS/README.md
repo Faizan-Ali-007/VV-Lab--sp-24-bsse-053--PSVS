@@ -47,4 +47,27 @@ This repository has one folder and one file. All lab artefacts are sections of t
 | S9 | Seed samples with low viability shall be flagged promptly for regeneration. |
 | S10 | A depositor may withdraw at most 20% of its boxes of a species per year. |
 | S11 | A withdrawn box may be redeposited only after re-inspection. |
-| S12 | The system shall keep a good audit trail of all actions. |
+| S12 | The system shall keep a good audit trail of all actions. | 
+
+
+## 2. Change-Request Template
+
+Copy this table for every proposed change to a baselined artefact.
+
+| Field | Entry |
+|-------|-------|
+| ID | CR-001 |
+| Artifact | (section and version, e.g. Section 1, PSVS-REQ-v1.0, requirement S7) |
+| Reason | (why the change is needed, e.g. defect D13: S7 contradicts S8) |
+| Impact | (affected requirements, tests, effort and risk) |
+| Approver | (name and role of the person who approves or rejects) |
+
+Example:
+
+| Field | Entry |
+|-------|-------|
+| ID | CR-001 |
+| Artifact | Section 1, PSVS-REQ-v1.0, S7 |
+| Reason | Defect D13: S7 ("never above -18°C") contradicts S8 (warming to 0°C during maintenance). |
+| Impact | S6, S7, S8 change; a maintenance mode is needed; tests for S7 need a maintenance case. |
+| Approver | Course teacher / requirements owner |

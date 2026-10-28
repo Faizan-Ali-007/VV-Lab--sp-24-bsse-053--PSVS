@@ -144,3 +144,40 @@ Defects found by the peer that I missed:
 | Peer-only defects (P) | (fill) |
 | Union = 23 + P | (fill) |
 | My detection rate = 23 / union | (fill) |
+
+
+## 6. Summary Table and Chart
+
+| Category | Critical | High | Medium | Low | Total |
+|----------|---------:|-----:|-------:|----:|------:|
+| Ambiguity | 0 | 2 | 2 | 0 | 4 |
+| Vagueness | 1 | 1 | 1 | 0 | 3 |
+| Incompleteness | 0 | 5 | 2 | 0 | 7 |
+| Contradiction | 2 | 1 | 0 | 0 | 3 |
+| Non-verifiability | 0 | 2 | 0 | 0 | 2 |
+| Redundancy | 0 | 0 | 0 | 2 | 2 |
+| Infeasibility | 0 | 1 | 0 | 0 | 1 |
+| Untraceability | 0 | 0 | 1 | 0 | 1 |
+| **Total** | **3** | **12** | **6** | **2** | **23** |
+
+Chart: defects per category
+
+| Category | Count | Bar |
+|----------|------:|-----|
+| Incompleteness | 7 | ███████ |
+| Ambiguity | 4 | ████ |
+| Vagueness | 3 | ███ |
+| Contradiction | 3 | ███ |
+| Non-verifiability | 2 | ██ |
+| Redundancy | 2 | ██ |
+| Infeasibility | 1 | █ |
+| Untraceability | 1 | █ |
+
+Chart: defects per severity
+
+| Severity | Count | Bar |
+|----------|------:|-----|
+| Critical | 3 | ███ |
+| High | 12 | ████████████ |
+| Medium | 6 | ██████ |
+| Low | 2 | ██ |

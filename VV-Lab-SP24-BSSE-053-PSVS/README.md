@@ -29,4 +29,22 @@ This repository has one folder and one file. All lab artefacts are sections of t
 |------|---------|
 | baseline-1 | Requirements S1-S12 as issued (PSVS-REQ-v1.0), before defect analysis |
 | main | Approved work only |
-| defect-analysis | Taxonomy, defect log and summary; merged into main when complete |
+| defect-analysis | Taxonomy, defect log and summary; merged into main when complete |        
+
+
+## 1. Requirements: PSVS-REQ-v1.0 (Baseline 1)
+
+| ID | Requirement |
+|----|-------------|
+| S1 | The system shall accept seed boxes only from registered depositors. |
+| S2 | Each chamber can hold a large number of boxes. |
+| S3 | Chambers 1-3 hold at most 50,000 boxes each; Chamber 4 holds at most 20,000. |
+| S4 | A box belongs to exactly one depositor, and only that depositor may withdraw it. |
+| S5 | In an emergency, the vault authority may release any box to any requesting party. |
+| S6 | Boxes shall be stored at a safe temperature. |
+| S7 | Chamber temperature shall never rise above -18°C. |
+| S8 | During maintenance, a chamber may be warmed to 0°C. |
+| S9 | Seed samples with low viability shall be flagged promptly for regeneration. |
+| S10 | A depositor may withdraw at most 20% of its boxes of a species per year. |
+| S11 | A withdrawn box may be redeposited only after re-inspection. |
+| S12 | The system shall keep a good audit trail of all actions. |
